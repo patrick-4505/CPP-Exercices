@@ -5,13 +5,13 @@ using namespace std;
 
 int main() {
 
-    array<int, 5> grades;
-    int max_grade = 0;
+    array<float, 5> grades;
+    float max_grade = 0;
     float average_grade;
     
     cout << "Enter grade number 1: ";
     cin >> grades[0];
-    int min_grade = grades[0];
+    float min_grade = grades[0];
 
 
     cout << "Enter grade number 2: ";
